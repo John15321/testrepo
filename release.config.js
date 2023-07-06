@@ -5,6 +5,14 @@ const config = {
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
+      "@semantic-release/github",
+      {
+        "assets": [
+          { "path": "kek.txt", "label": "My file" },
+        ]
+      }
+    ],
+    [
       "@semantic-release/changelog",
       {
         "changelogFile": "CHANGELOG.md"
