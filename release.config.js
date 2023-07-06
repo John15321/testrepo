@@ -6,10 +6,17 @@ const config = {
     ["@semantic-release/git", {
       // "assets": ["dist/*.js", "dist/*.js.map"],
       "assets": ["kek.txt"],
-      "message": "chore(release 🚀): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      "message": "chore(release 🚀): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+      "changelogFile": "CHANGELOG.md"
     }],
     '@semantic-release/github',
-    'semantic-release-github-actions-tags'
+    'semantic-release-github-actions-tags',
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["docs/CHANGELOG.md"]
+      }
+    ]
   ]
 };
 
