@@ -22,7 +22,7 @@ jobs:
         run: echo lmao > kek.txt
       - name: Semantic Release
         run: |
-          echo npx semantic-release
+          npx semantic-release
           echo "Release job 🚀!"
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
