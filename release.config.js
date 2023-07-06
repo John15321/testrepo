@@ -17,6 +17,6 @@ const config = {
       }
     ]
   ],
-  "release": { "branches": [ "master" ] }
+  "release": { "branches": ["master", "main"] }
 };
 module.exports = config;
