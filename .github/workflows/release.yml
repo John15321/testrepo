@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '20'
       - name: Fake build
-        run: echo lmao > kek.txt
+        run: echo '$(date)' > kek.txt
       - name: Semantic Release
         run: |
           npm -g install @semantic-release/git semantic-release semantic-release-github-actions-tags @semantic-release/changelog
