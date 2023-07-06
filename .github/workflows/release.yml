@@ -22,6 +22,7 @@ jobs:
         run: echo lmao > kek.txt
       - name: Semantic Release
         run: |
+          npm -g install @semantic-release/git semantic-release
           npx semantic-release
           echo "Release job 🚀!"
         env: 
