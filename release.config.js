@@ -5,18 +5,18 @@ const config = {
     '@semantic-release/release-notes-generator',
     ["@semantic-release/git", {
       // "assets": ["dist/*.js", "dist/*.js.map"],
-      "assets": ["kek.txt"],
+      "assets": ["kek.txt", "CHANGELOG.md"],
       "message": "chore(release 🚀): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
-      "changelogFile": "CHANGELOG.md"
+      "changelogFile": "CHANGELOG.md",
     }],
     '@semantic-release/github',
     'semantic-release-github-actions-tags',
     [
-      "@semantic-release/git",
+      "@semantic-release/changelog",
       {
-        "assets": ["CHANGELOG.md"]
+        "changelogFile": "docs/CHANGELOG.md"
       }
-    ]
+    ],
   ]
 };
 
