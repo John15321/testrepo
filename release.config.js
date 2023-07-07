@@ -8,7 +8,7 @@ const config = {
       "@semantic-release/github",
       {
         "assets": [
-          { "path": "kek.txt", "label": "My file" },
+          { "path": "kek.txt" },
         ]
       }
     ],
