@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/John15321/testrepo/compare/v2.0.0...v2.1.0) (2023-07-07)
+
+
+### Features
+
+* lmao ([13dcad7](https://github.com/John15321/testrepo/commit/13dcad79426f8d17ccfa8d2dae3bd3e0b66a0583))
+
 # [2.0.0](https://github.com/John15321/testrepo/compare/v1.6.0...v2.0.0) (2023-07-07)
 
 
