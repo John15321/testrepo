@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/John15321/testrepo/compare/v2.1.0...v2.2.0) (2023-07-08)
+
+
+### Features
+
+* **ABC-123:** Update README.md ([1937137](https://github.com/John15321/testrepo/commit/193713782b26d6b5dfbed9123113bae7432700a7))
+
 # [2.1.0](https://github.com/John15321/testrepo/compare/v2.0.0...v2.1.0) (2023-07-07)
 
 
